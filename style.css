@@ -31,5 +31,46 @@ ul{
 }
 li{
     padding: 8px;
-    margin-botton:440px;
+    margin-bottom: 440px;
+}
+#video{
+    padding:50px
+}
+#email{
+    align-content: center;
+    padding: 9px;
+    width: 350px;
+    border-radius: 1ex;   
+}
+#submit{
+    background-color: rgb(35, 82, 170);
+    padding: 9px;
+    width: 120px;
+    border-radius: 1ex;
+    margin: 9px;
+    color: cornsilk;
+    display: flex;
+    flex-direction: column;
+}
+#submit:hover{
+    font-weight:bold;
+    background-color: rgb(4, 56, 56);
+}
+#email:hover{
+    font-weight: bold;
+}
+main{
+    background-color: rgb(171, 212, 238);
+}
+#quality{
+    display: flex;
+}
+.fet {
+  color: rgb(35, 82, 170);;  
+}
+@media(max-width:560px){
+    #header{
+        width: 560px;
+        background-color: darkblue;
+    }
 }
