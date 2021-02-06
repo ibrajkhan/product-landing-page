@@ -3,7 +3,7 @@
     padding: 0;
 }
 #header{
-    background-color: blueviolet;
+    background-color: darkblue;
     height:150px;
     border-bottom: crimson 4px solid;
 }
@@ -12,7 +12,7 @@
     color: cornsilk;
     font-family: 'Lobster', cursive;
     font-size: 50px;
-    margin-left: 38%;
+    margin-left: 36%;
     margin-top: -115px;   
 }
 span{
@@ -21,20 +21,31 @@ span{
 #header-img{
    width: 150px;
 }
-ul{
+#lins{
     display: flex;
-    justify-content: flex-end;
-    font-size: 30px;
+    flex-direction: row;
+    justify-content: flex-end; 
+    font-size: 20px;
     list-style: none;
     color:cornsilk;
-    margin-right: 5px;
+    margin-right: 25px; 
+    cursor: pointer;
+    margin-top: -25px;
 }
-li{
-    padding: 8px;
-    margin-bottom: 440px;
+li {
+   margin: 20px;
+}
+li:hover{
+    color: crimson;
+    font-weight:bold;
 }
 #video{
     padding:50px
+}
+.hell{
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-family: 'Lobster', cursive;  
 }
 #email{
     align-content: center;
@@ -54,7 +65,7 @@ li{
 }
 #submit:hover{
     font-weight:bold;
-    background-color: rgb(4, 56, 56);
+    background-color: rgb(17, 60, 139);
 }
 #email:hover{
     font-weight: bold;
@@ -63,10 +74,64 @@ main{
     background-color: rgb(171, 212, 238);
 }
 #quality{
+    margin: 100px 300px;
     display: flex;
+    flex-direction: row;
 }
 .fet {
-  color: rgb(35, 82, 170);;  
+  color: rgb(35, 82, 170);  
+}
+#headline{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin-left: 100px;
+}
+#line{
+    margin-left: 131px;
+}
+#postcard{
+    border: 1px solid  rgb(35, 82, 170);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-bottom: 70px;
+    
+}
+#card{
+    display: flex;
+    justify-content: space-around;
+}
+.upper{
+    background-color: rgb(35, 82, 170);
+    color:greenyellow;
+    height: 40px;
+    padding-top: 20px;
+}
+.price{
+    padding: 30px;
+}
+.text{
+  margin: 0px 40px;  
+}
+#footer{
+    background-color: darkblue;
+    border-top: crimson solid 2px;
+    color:cornsilk;
+    height: 100px;
+    font-size: 17px;
+    padding: 10px;
+}
+#items{
+    display: flex; 
+}
+#footer p:hover{
+    color: crimson;
+    font-weight: bold;
+}
+#footer p{
+    padding: 10px;
+    cursor: pointer;    
 }
 @media(max-width:560px){
     #header{
