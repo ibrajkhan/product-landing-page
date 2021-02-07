@@ -21,23 +21,25 @@ span{
 #header-img{
    width: 150px;
 }
+a{
+    color: cornsilk;
+}
+a:hover{
+    color: crimson;
+    font-weight: bold;
+}
 #lins{
     display: flex;
     flex-direction: row;
     justify-content: flex-end; 
     font-size: 20px;
     list-style: none;
-    color:cornsilk;
     margin-right: 25px; 
     cursor: pointer;
     margin-top: -25px;
 }
 li {
    margin: 20px;
-}
-li:hover{
-    color: crimson;
-    font-weight:bold;
 }
 #video{
     padding:50px
@@ -125,7 +127,7 @@ main{
 #items{
     display: flex; 
 }
-#footer p:hover{
+#items p:hover{
     color: crimson;
     font-weight: bold;
 }
@@ -133,9 +135,81 @@ main{
     padding: 10px;
     cursor: pointer;    
 }
-@media(max-width:560px){
+@media(max-width:660px){
     #header{
-        width: 560px;
+        width: 660px;
         background-color: darkblue;
+    }
+    #heading{
+        font-size: 30px;
+    }
+    #lins{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-right: 180px;
+    }
+    li{
+        margin: 1px;
+        margin-top: 32px;
+        padding:5px;
+    }
+    iframe{
+        width: 60%;
+        height: 350px;
+        margin-right: 150px;
+    }
+    #form{
+        margin-right: 150px;  
+    }
+    .hell{
+        font-size: 30px;
+        margin-right: 170px;
+    }
+   #main{
+        width: 660px;
+    }
+    #quality{
+       margin: 100px ;
+    }
+    #line{
+       margin-top: 80px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       position: relative;
+       right:170px;
+    }
+    .fet{
+        position: absolute;
+        margin-right: 20px;
+    }
+    .heading{
+        font-size: 26px;
+        padding-bottom: 5px;
+    }
+    .para{
+        font-size: 20px;
+    }
+    #card{
+        display: flex;
+        flex-direction: column;
+        margin-left: 8%;
+    }
+    .upper{
+        font-size: 26px;
+    }
+    .price{
+        font-size: 30px;
+    }
+    .text{
+        font-size: 18px;
+    }
+    #postcard{
+        height: 350px;
+    }
+
+    #footer{
+        width: 660px;
     }
 }
